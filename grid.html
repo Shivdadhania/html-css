@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <body>
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            /* display: inline-block; */
+            ">
+            <div style="background-color: lightblue;"> div 1</div>
+            <div style="background-color: lightpink;">div 2<p>test</p></div>
+        </div>
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            /* display: inline-block; */
+            ">
+            <div style="background-color: lightblue;"> div 1</div>
+            <div style="background-color: lightpink;">div 2<p>test</p></div>
+            <div style="background-color: lightyellow;"> div 3</div>
+            <div style="background-color: lightyellow;"> div 4</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            /* display: inline-block; */
+            ">
+            <div style="background-color: lightblue;"> div 1</div>
+            <div style="background-color: lightyellow;"> div 2</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1.5fr 2fr;
+            /* display: inline-block; */
+            ">
+            <div style="background-color: lightblue;"> div 1</div>
+            <div style="background-color: lightyellow;"> div 2</div>
+            <div style="background-color: lightgreen;"> div 3</div>
+        </div>
+    </body>
+</html>
